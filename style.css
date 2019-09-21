@@ -12,10 +12,13 @@ a {
     background: url(./images/bg.jpg); 
     background-repeat: no-repeat;
     min-height: 100vh;
+    position: relative;
 }
 
-.section__one__container {
-    position: relative;
+.dp {
+    position: absolute;
+    top: 80%;
+    right:35%;
 }
 
 .section__one__navbar {
@@ -42,17 +45,53 @@ a {
 
 .section__two__about {
     background-color: #E6E6E6;
-}
-
-.section__two__about {
-    padding: 10em 2em;
+    padding-top: 24em;
+    padding-bottom: 5em;
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
 .icons {
     color: green;
+    justify-content: center
 }
 
 .brief__about {
     display: flex;
-    margin: 1.5em;
+    margin: 3.5em;
+    margin-left: 3em
+    
+}
+
+
+.section__two__texts > article > h2 {
+    font-family: 'Sacramento', cursive; 
+    text-align: center;
+}
+
+.section__two__texts > article > p {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section__two__texts > article > h5 {
+    color: aqua;
+    text-align: center;
+}
+
+.content__about {
+    text-align: center;
+    margin: 1.5em,
+}
+
+.brief__about__heading {
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 1em;
+}
+
+.brief__about__text {
+    align-items: center;
 }

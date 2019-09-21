@@ -9,8 +9,13 @@ a {
 }
 
 .section__one {
-    background: url(./images/bg.jpg);
+    background: url(./images/bg.jpg); 
+    background-repeat: no-repeat;
     min-height: 100vh;
+}
+
+.section__one__container {
+    position: relative;
 }
 
 .section__one__navbar {
@@ -26,7 +31,28 @@ a {
     padding: 5em 0;
 }
 
+.section__one__texts > h3 {
+    font-family: sans-serif;
+}
+
 .section__one__icons {
     font-size: 2.5em;
     text-align: center
+}
+
+.section__two__about {
+    background-color: #E6E6E6;
+}
+
+.section__two__about {
+    padding: 10em 2em;
+}
+
+.icons {
+    color: green;
+}
+
+.brief__about {
+    display: flex;
+    margin: 1.5em;
 }

@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.section__one {
+    background: url(./images/bg.jpg);
+    min-height: 100vh;
+}
+
+.section__one__navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em;
+}
+
+.section__one__texts {
+    font-family: 'Rye', cursive;
+    color: white;
+    text-align: center;
+    padding: 5em 0;
+}
+
+.section__one__icons {
+    font-size: 2.5em;
+    text-align: center
+}

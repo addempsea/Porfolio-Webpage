@@ -9,7 +9,7 @@ a {
 }
 
 .section__one {
-    background: url(./images/bg.jpg); 
+    background: url(images/bg.jpg); 
     background-repeat: no-repeat;
     min-height: 120vh;
     position: relative;
@@ -58,7 +58,7 @@ a {
 
 .brief__about {
     display: flex;
-    margin: 3.5em;
+    margin: 3.5em 1em;
     /* margin-left: 3em; */
     justify-content: center;
     align-items: center;
@@ -78,7 +78,7 @@ a {
 }
 
 .section__two__texts > article > h5 {
-    color: aqua;
+    color: green;
     text-align: center;
 }
 
@@ -94,8 +94,10 @@ a {
     padding-right: 5em;
 }
 
-.brief__about__text {
-    align-items: center;
+
+.text__center {
+    text-align: center;
+    padding: 0 2em;
 }
 
 .section__three {
@@ -137,7 +139,8 @@ a {
     padding: 1em 1em;
     color: red;
     border: 2px #652525 solid;
-    text-transform: uppercase
+    text-transform: uppercase;
+    border-radius: 11%;
 }
 
 

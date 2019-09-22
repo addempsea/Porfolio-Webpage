@@ -11,7 +11,7 @@ a {
 .section__one {
     background: url(./images/bg.jpg); 
     background-repeat: no-repeat;
-    min-height: 100vh;
+    min-height: 120vh;
     position: relative;
 }
 
@@ -39,8 +39,8 @@ a {
 }
 
 .section__one__icons {
-    font-size: 2.5em;
-    text-align: center
+    font-size: 3.5em;
+    text-align: center;
 }
 
 .section__two__about {
@@ -59,8 +59,9 @@ a {
 .brief__about {
     display: flex;
     margin: 3.5em;
-    margin-left: 3em
-    
+    /* margin-left: 3em; */
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -90,8 +91,70 @@ a {
     text-align: center;
     text-transform: capitalize;
     padding-bottom: 1em;
+    padding-right: 5em;
 }
 
 .brief__about__text {
     align-items: center;
+}
+
+.section__three {
+    background-color: #1C202B;
+    min-height: 50vh;
+}
+
+.section__four__main {
+    background-color: #C4C4C4;
+    height: 70vh;
+}
+
+.testimonials {
+    text-align: center;
+    padding-top: 2em;
+}
+
+.testimonials > span {
+    font-family: 'Sacramento', cursive; 
+    font-size: 48px;
+    text-transform: capitalize;
+}
+
+.testimonials > p {
+    text-transform: capitalize;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.quotes {
+    text-align: center;
+    font-size: 16px;
+    padding: 3em 4em;
+}
+
+
+.link {
+    margin:  35em;
+    padding: 1em 1em;
+    color: red;
+    border: 2px #652525 solid;
+    text-transform: uppercase
+}
+
+
+
+.section__five__container {
+    background-color: #1C202B;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 2em;
+    font-weight: bold;
+    
+}
+
+.client__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 3em;
+    padding-bottom: 3em;
 }

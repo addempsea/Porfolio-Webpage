@@ -141,6 +141,19 @@ a {
 
 .section__four__main {
     background-color: #C4C4C4;
+    min-height: 71vh;
+}
+
+.more__test {
+    text-align: center;
+}
+
+.lin {
+    color: red;
+    border: 2px #652525 solid;
+    text-transform: uppercase;
+    border-radius: 10%;
+    padding: 1em 1em;
 }
 
 .testimonials {
@@ -164,20 +177,8 @@ a {
 .quotes {
     text-align: center;
     font-size: 16px;
-    padding: 3em 6em;
+    padding: 3em 4em;
 }
-
-
-.link {
-    margin:  32em;
-    padding: 1em 1em;
-    color: red;
-    border: 2px #652525 solid;
-    text-transform: uppercase;
-    border-radius: 11%;
-}
-
-
 
 .section__five__container {
     background-color: #1C202B;

@@ -8,6 +8,12 @@ a {
     text-decoration: none;
 }
 
+.sacramento {
+    font-family: 'Sacramento', cursive;
+    font-size: 64px;
+    text-align: center
+}
+
 .section__one {
     background: url(images/bg.jpg); 
     background-repeat: no-repeat;
@@ -65,19 +71,18 @@ a {
 }
 
 
-.section__two__texts > article > h2 {
-    font-family: 'Sacramento', cursive; 
+.section__two__texts > h2 {
     text-align: center;
 }
 
-.section__two__texts > article > p {
+.section__two__texts >  p {
     font-family: sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
 }
 
-.section__two__texts > article > h5 {
+.section__two__texts >  h5 {
     color: green;
     text-align: center;
 }
@@ -97,26 +102,55 @@ a {
 
 .text__center {
     text-align: center;
-    padding: 0 2em;
+    padding: 0 4em;
 }
 
 .section__three {
     background-color: #1C202B;
-    min-height: 50vh;
+}
+
+.section__three__heading {
+    padding: 3em 95px;
+    color: white;
+}
+
+.section__three__about {
+    text-align: center;
+}
+
+.section__three__about > p {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 0.5em 0;
+}
+
+.resume__texts {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0;
+}
+
+.resume__style {
+    border: 1px green solid;
+    padding: 1em 1em;
+    margin: 170px;
+    margin-bottom: 80px;
 }
 
 .section__four__main {
     background-color: #C4C4C4;
-    height: 70vh;
 }
 
 .testimonials {
     text-align: center;
-    padding-top: 2em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    /* padding: 2.5em auto; */
 }
 
-.testimonials > span {
-    font-family: 'Sacramento', cursive; 
+.testimonials > span { 
     font-size: 48px;
     text-transform: capitalize;
 }
@@ -130,12 +164,12 @@ a {
 .quotes {
     text-align: center;
     font-size: 16px;
-    padding: 3em 4em;
+    padding: 3em 6em;
 }
 
 
 .link {
-    margin:  35em;
+    margin:  32em;
     padding: 1em 1em;
     color: red;
     border: 2px #652525 solid;
@@ -158,6 +192,6 @@ a {
 .client__list {
     display: flex;
     justify-content: space-between;
-    margin: 2em 3em;
+    margin: auto 3em;
     padding-bottom: 3em;
 }
